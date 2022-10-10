@@ -1,0 +1,106 @@
+.Certificates{
+  margin-top: 6rem;
+}
+
+.c-title{
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color:  #f1f1f1;
+}
+  
+  /* Float four columns side by side */
+  .c-col {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin: 1.2rem;
+  }
+
+  .c-img{
+    border-radius: 10px;
+    width: 60%;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .c-row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .c-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /* Style the counter cards */
+  .c-cards {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+
+  }
+
+  .c-button
+  {
+    border-width: 2px;
+    border-radius: 3px;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    font-weight: bold;
+    color:inherit;
+    background-color:var(--orangeCard);
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin:1rem;
+  }
+
+  .c-button:hover
+  {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+  .c-section{
+    display: flex;
+  }
+
+
+  .c-cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+.c-right{
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+    flex-direction: column ;
+    font-size: 1.1rem;
+}
+
+.c-left{
+    display:flex;
+    padding-left: 3rem;
+    max-width: 30%;
+}
+
+
+
+ 
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 700px) {
+    .c-col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+

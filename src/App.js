@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Maincontaint/Home/Home';
+import About from './Components/Maincontaint/About/About';
+import Projects from './Components/Maincontaint/Projects/Projects';
+import Certificates from './Components/Maincontaint/Certificates/Certificates';
+import Skills from './Components/Maincontaint/Skills/Skills';
+
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Router>
+      <div className='n-stick'><Navbar/></div>
+      <div className='body-s'>
+
+        <Routes>
+          
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/skills" element={<Skills/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/certificates" element={<Certificates/>} />
+          
+        </Routes>
+
+      </div>
+      <div className='f-stick'><Footer/></div>
+      </Router>
+
     </div>
   );
 }
 
 export default App;
+
+

@@ -1,0 +1,64 @@
+  /* Float four columns side by side */
+  .p-col {
+    float: left;
+    width: 28%;
+    padding: 15px;
+    margin: 1.2rem;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .p-row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .p-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /* Style the counter cards */
+  .p-cards {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius:7px;
+  }
+
+  .p-button
+  {
+    border-width: 2px;
+    border-radius: 3px;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    font-weight: bold;
+    color:inherit;
+    background-color:var(--orangeCard);
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin:1rem;
+  }
+
+  .p-button:hover
+  {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+ 
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .p-col 
+    {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+

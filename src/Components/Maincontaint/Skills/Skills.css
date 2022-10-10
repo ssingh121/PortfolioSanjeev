@@ -1,0 +1,36 @@
+.Skills{
+    font-family: 'Times New Roman', serif;
+    margin-top: 6rem;
+}
+
+.s-title{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: -3.5rem;
+    color:  #f1f1f1;
+}
+
+.s-icons{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.tech-icons{
+    font-size: 5rem;
+    color: var(--black);
+    border-width: 3px;
+    background-color: var(--blueCard);
+    padding-left: 1.7rem ;
+    padding-right: 1.7rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 5px;
+    box-shadow:0px 15px 0px 15px var(--black);    
+}
+
+.tech-icons:hover{
+    font-weight: bolder;
+    box-shadow: 0px 19px 60px blue;
+}
