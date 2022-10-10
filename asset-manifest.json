@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PortfolioSanjeev/static/css/main.60be8e45.css",
+    "main.js": "/PortfolioSanjeev/static/js/main.07a3242c.js",
+    "static/js/787.fbe66e6e.chunk.js": "/PortfolioSanjeev/static/js/787.fbe66e6e.chunk.js",
+    "static/media/bg-video2.mp4": "/PortfolioSanjeev/static/media/bg-video2.8d2f82795efa2301d369.mp4",
+    "static/media/bg2.png": "/PortfolioSanjeev/static/media/bg2.d994fb8d32ca3beb9ef4.png",
+    "static/media/certificate_communication_tcs.pdf": "/PortfolioSanjeev/static/media/certificate_communication_tcs.cc321f23061b2cc01a9e.pdf",
+    "static/media/certificate_intern_sparksfoundation.pdf": "/PortfolioSanjeev/static/media/certificate_intern_sparksfoundation.cd7ce74be298daa7afdb.pdf",
+    "static/media/resume.jpg": "/PortfolioSanjeev/static/media/resume.d8e471f010727f1e3e4f.jpg",
+    "static/media/certificate_SNCK1A2_codechef.pdf": "/PortfolioSanjeev/static/media/certificate_SNCK1A2_codechef.aa0570b3ab14899a0a37.pdf",
+    "static/media/certificate_mern_udemy.pdf": "/PortfolioSanjeev/static/media/certificate_mern_udemy.e8e6832fa02f3072582b.pdf",
+    "static/media/codeEditor.png": "/PortfolioSanjeev/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/certificate_intern_unicompiler.pdf": "/PortfolioSanjeev/static/media/certificate_intern_unicompiler.2ac5971fd0526a4ed02c.pdf",
+    "static/media/blog.png": "/PortfolioSanjeev/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/tsf.png": "/PortfolioSanjeev/static/media/tsf.736b29686805a980a690.png",
+    "static/media/home-main.svg": "/PortfolioSanjeev/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/PortfolioSanjeev/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Sanjeev's Resume.pdf": "/PortfolioSanjeev/static/media/Sanjeev's Resume.cb54fd32f7eb6753204a.pdf",
+    "static/media/chatify.png": "/PortfolioSanjeev/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/c-logo.png": "/PortfolioSanjeev/static/media/c-logo.68ca7948d7c62ccc2187.png",
+    "static/media/u-logo.png": "/PortfolioSanjeev/static/media/u-logo.12cb9fc3abf76ac9652d.png",
+    "static/media/UNIcompiler.jfif": "/PortfolioSanjeev/static/media/UNIcompiler.bcfed68514e2293effd6.jfif",
+    "index.html": "/PortfolioSanjeev/index.html",
+    "main.60be8e45.css.map": "/PortfolioSanjeev/static/css/main.60be8e45.css.map",
+    "main.07a3242c.js.map": "/PortfolioSanjeev/static/js/main.07a3242c.js.map",
+    "787.fbe66e6e.chunk.js.map": "/PortfolioSanjeev/static/js/787.fbe66e6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60be8e45.css",
+    "static/js/main.07a3242c.js"
+  ]
+}
