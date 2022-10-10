@@ -65,7 +65,7 @@ class Certificates extends React.Component {
                     <h3>The_Sparks_Foundation_intern</h3>
                     </div>
                     <div className='w3-section'>
-                    <h5>This is full stack web devlopment virtual internship. In this internship I have done two projects using MERN technolgy like nodejs,mongodb,express etc..</h5>
+                    <h5>This is full stack web devlopment virtual internship. In this internship I have done two projects using MERN technolgy like nodejs,mongodb,express etc.</h5>
                     </div>
                     
                     <div className="c-section">
