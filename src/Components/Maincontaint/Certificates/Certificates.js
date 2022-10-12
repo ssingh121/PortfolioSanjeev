@@ -3,7 +3,7 @@ import "./Certificates.css";
 
 import mernc from "../../Assets/certificate_mern_udemy.pdf";
 import codechefc from "../../Assets/certificate_SNCK1A2_codechef.pdf";
-import tcsc from "../../Assets/certificate_communication_tcs.pdf"
+import tcsc from "../../Assets/certificate_softskills_tcs.pdf"
 import tsfc from "../../Assets/certificate_intern_sparksfoundation.pdf";
 import unic from "../../Assets/certificate_intern_unicompiler.pdf";
 import resc from "../../Assets/Sanjeev's Resume.pdf";
@@ -137,10 +137,10 @@ class Certificates extends React.Component {
 
                 <div className='c-right'>
                     <div className="c-section">
-                    <h3>tcs_communication_certificate</h3>
+                    <h3>tcs_softskill_certificate</h3>
                     </div>
                     <div className='w3-section'>
-                    <h5>In this course I learnt and understand what communication is and why we communicate. I had also understand non-verbal communication in detail.</h5>
+                    <h5>In this course I learnt and understand what communication is and why we communicate. I had also understand non-verbal communication and soft skills in detail.</h5>
                     </div>
                     
                     <div className="c-section">
