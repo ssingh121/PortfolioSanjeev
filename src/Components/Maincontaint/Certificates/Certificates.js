@@ -7,7 +7,6 @@ import tcsc from "../../Assets/certificate_softskills_tcs.pdf"
 import tsfc from "../../Assets/certificate_intern_sparksfoundation.pdf";
 import unic from "../../Assets/certificate_intern_unicompiler.pdf";
 import resc from "../../Assets/Sanjeev's Resume.pdf";
-import octc from "../../Assets/certificate_origin_cloude_tech.pdf";
 
 import mernl from "../../Assets/u-logo.png";
 import codechefl from "../../Assets/c-logo.png";
@@ -15,7 +14,6 @@ import tcsl from "../../Assets/tcs.png";
 import tsfl from "../../Assets/tsf.png";
 import unil from "../../Assets/UNIcompiler.jfif";
 import resl from "../../Assets/resume.jpg";
-import octl from "../../Assets/ocTech.webp";
 
 
 class Certificates extends React.Component {
@@ -53,32 +51,6 @@ class Certificates extends React.Component {
             </div>
             </div>
 
-
-
-            <div className="c-col">
-            <div className="c-cards">
-
-                <div className='c-left'>  
-                    <img src={octl} alt="Avatar" className='c-img'/>
-                </div>
-
-                <div className='c-right'>
-                    <div className="c-section">
-                    <h3>Origin Cloud Technologies Private Limited</h3>
-                    </div>
-                    <div className='w3-section'>
-                    <h5>I am doing this internship in the domain of full stack web development. As a Intern I am responsible for Nodejs and reactjs Projects in this internship.
-</h5>
-                    </div>
-                    
-                    <div className="c-section">
-                        <a href={octc} className="p-button" download={octc}>Download</a>
-                        <a href={octc} className="p-button" target="_blank" rel="noreferrer">View</a>
-                    </div>
-                </div>
-                
-            </div>
-            </div>
 
 
             <div className="c-col">

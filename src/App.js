@@ -9,29 +9,30 @@ import Projects from './Components/Maincontaint/Projects/Projects';
 import Certificates from './Components/Maincontaint/Certificates/Certificates';
 import Skills from './Components/Maincontaint/Skills/Skills';
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       
-      <Router>
+      <HashRouter>
       <div className='n-stick'><Navbar/></div>
       <div className='body-s'>
 
         <Routes>
-          
+       
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/skills" element={<Skills/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/certificates" element={<Certificates/>} />
+   
           
         </Routes>
 
       </div>
       <div className='f-stick'><Footer/></div>
-      </Router>
+      </HashRouter>
 
     </div>
   );

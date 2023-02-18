@@ -10,7 +10,7 @@
     margin-right: 2rem;
     margin-left: 2rem;
 }
-.a-left{
+.a-right{
     display: flex;
     font-weight: bold;
     flex-direction: column ;
@@ -18,6 +18,17 @@
     padding-left: 2rem;
 }
 
-.a-right{
+.a-left{
     display:flex;
 }
+
+@media (max-width: 767px) {
+    .about{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .img-fluid{
+      max-height: 300px;
+    }    
+  }

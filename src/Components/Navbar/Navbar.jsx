@@ -15,11 +15,11 @@ class Navbar extends React.Component {
                 <div className='n-right'>
                     <div className='n-list'>
 
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/skills">Skills</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/certificates">Certificates</Link>
+                    <Link to="/" className='n-items'>Home</Link>
+                    <Link to="/about" className='n-items'>About</Link>
+                    <Link to="/skills" className='n-items'>Skills</Link>
+                    <Link to="/projects" className='n-items'>Projects</Link>
+                    <Link to="/certificates" className='n-items'>Certificates</Link>
 
                     </div>
                 </div>

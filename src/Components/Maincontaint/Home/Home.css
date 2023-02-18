@@ -39,6 +39,9 @@
     height: 2rem;
     font-weight: bold;
   }
+  .img-fluid{
+    max-height: 450px;
+  }
 
   .i-icons{
     margin-top:2.6rem;
@@ -77,10 +80,22 @@
   .content {
     position: relative;
     display: flex;
+    flex-direction: row;
     margin-top: 3rem;
     background: rgba(0, 0, 0, 0.5);
     padding-left: 2rem;
     padding-top: 1rem;
     margin-right: 2rem;
     margin-bottom: -1rem;
+  }
+
+  @media (max-width: 767px) {
+    .content{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .img-fluid{
+      max-height: 300px;
+    }    
   }

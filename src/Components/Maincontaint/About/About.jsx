@@ -10,6 +10,15 @@ class About extends React.Component {
             <div className='about'>
 
                 <div className='a-left'>
+                    <img
+                        src={aboutlogo}
+                        alt="about pic"
+                        className="img-fluid"
+                        // style={{ maxHeight: "400px" }}
+                    />
+                </div>
+
+                <div className='a-right'>
                     <div className='detailss'>
                     <span>Hi Everyone, I am</span> 
                     <span style={{color:"grey"}}> Sanjeev Singh </span>
@@ -28,15 +37,6 @@ class About extends React.Component {
                         <li > Travelling and videography </li>
                     </ul>
                     </div>
-                </div>
-
-                <div className='a-right'>
-                    <img
-                        src={aboutlogo}
-                        alt="about pic"
-                        className="img-fluid"
-                        style={{ maxHeight: "400px" }}
-                    />
                 </div>
             </div>
         );
